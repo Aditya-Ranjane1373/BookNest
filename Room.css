@@ -1,0 +1,99 @@
+/* Rooms.css */
+
+.rooms-container {
+  background-color: #f4f4f4;
+  padding: 60px 20px;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 50px;
+  border-left: 6px solid #007bff;
+  padding-left: 20px;
+  color: #2c3e50;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.room-grid {
+  gap: 24px;
+}
+
+.room-card-col {
+  display: flex;
+  align-items: stretch;
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fff;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.card-price {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.card-availability {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: green;
+  margin-bottom: 10px;
+}
+
+.card-availability.unavailable {
+  color: #dc3545;
+}
+
+.book-btn {
+  background-color: #007bff;
+  color: white;
+  font-weight: 500;
+  border-radius: 8px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  border: none;
+}
+
+.book-btn:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
