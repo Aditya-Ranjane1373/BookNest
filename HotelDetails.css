@@ -1,0 +1,100 @@
+.hotel-container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.page-title {
+  text-align: center;
+  color: #003366;
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+.hotel-form {
+  padding: 25px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  border: 1px solid #dee2e6;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.15);
+}
+
+.hotel-form:hover {
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.25);
+}
+
+.hotel-form label {
+  font-weight: 600;
+  color: #444;
+}
+
+.hotel-form .form-control {
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.btn-save {
+  background-color: #007bff;
+  border: none;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.btn-save:hover {
+  background-color: #0056b3;
+}
+
+.table-wrapper {
+  margin-top: 40px;
+  overflow-x: auto;
+}
+
+.hotel-table {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  border-collapse: separate;
+}
+
+.hotel-table thead {
+  background-color: #343a40;
+  color: white;
+}
+
+.hotel-table th,
+.hotel-table td {
+  text-align: center;
+  vertical-align: middle;
+  padding: 12px;
+}
+
+.btn-edit {
+  background-color: #ffc107;
+  border: none;
+  color: black;
+  font-weight: 500;
+  margin-right: 8px;
+  border-radius: 6px;
+}
+
+.btn-edit:hover {
+  background-color: #e0a800;
+}
+
+.btn-delete {
+  background-color: #dc3545;
+  border: none;
+  font-weight: 500;
+  color: white;
+  border-radius: 6px;
+}
+
+.btn-delete:hover {
+  background-color: #bd2130;
+}
