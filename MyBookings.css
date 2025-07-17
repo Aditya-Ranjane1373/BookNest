@@ -1,0 +1,42 @@
+.my-bookings-bg {
+  background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), 
+              url("https://source.unsplash.com/1600x900/?hotel,luxury") no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;
+  padding-top: 50px;
+}
+
+.my-bookings-container {
+  background-color: #ffffffdd;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.heading-border {
+  border-bottom: 3px solid #007bff;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.booking-table {
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.booking-table th {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.booking-table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.booking-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
